@@ -1,0 +1,86 @@
+/* Basic reset and background color for the entire site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d7da; /* Soft pink background color */
+}
+
+/* Navigation bar styling */
+nav {
+    margin-bottom: 20px;
+}
+
+/* Header styling */
+header {
+    background: #ffffff; /* White background for header */
+    border-bottom: 2px solid #ddd; /* Light border at the bottom */
+    padding: 20px; /* Padding for header content */
+}
+
+/* Hero section styling */
+.hero {
+    background-color: #ffffff; /* White background for hero section */
+    border-radius: 8px; /* Rounded corners */
+    padding: 50px;
+    margin: 20px auto; /* Centered with margin */
+    max-width: 800px; /* Maximum width */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* General section styling */
+header, main, footer {
+    padding: 20px; /* Padding for all sections */
+    color: #333; /* Dark color for text for contrast */
+}
+
+.about, .projects, .contact {
+    background-color: #ffffff; /* White background for content sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Maximum width for readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.social-media {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0; /* Adjust margin */
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center the items */
+}
+
+    .social-media li {
+        margin: 0 10px; /* Add space between items */
+    }
+
+    .social-media a {
+        text-decoration: none; /* Remove underline from links */
+        color: inherit; /* Inherit text color */
+        font-size: 24px; /* Adjust icon size */
+    }
+
+/* Footer styling */
+footer {
+    background-color: #ffffff; /* White background for footer */
+    border-top: 2px solid #ddd; /* Light border at the top */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive image styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styling for consistency */
+h1, h2, h3 {
+    color: #333; /* Dark color for headings */
+}
+
+p {
+    color: #555; /* Slightly lighter color for text */
+}

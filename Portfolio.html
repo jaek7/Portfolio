@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmine Kale - Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Inline styles for demonstration; ideally, add these to your styles.css file */
+        body {
+            background-color: #f8d7da; /* Soft pink background color */
+        }
+
+        .hero, .about, .education, .goals, .projects, .contact {
+            background-color: #ffffff; /* White background for sections */
+            border-radius: 8px; /* Rounded corners */
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px; /* Maximum width for readability */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        }
+
+            .hero h1, .about h2, .education h2, .goals h2, .projects h2, .contact h2 {
+                color: #333; /* Dark color for headings */
+            }
+
+            .hero p, .about p, .education p, .goals p, .projects p, .contact p {
+                color: #555; /* Slightly lighter color for text */
+            }
+
+        .social-media {
+            list-style-type: none; /* Remove bullets */
+            padding: 0; /* Remove default padding */
+            margin: 10px 0; /* Adjust margin */
+            display: flex; /* Align items in a row */
+            justify-content: center; /* Center the items */
+        }
+
+            .social-media li {
+                margin: 0 10px; /* Add space between items */
+            }
+
+            .social-media a {
+                text-decoration: none; /* Remove underline from links */
+                color: inherit; /* Inherit text color */
+                font-size: 24px; /* Adjust icon size */
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero text-center">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Jasmine, a Second Year Engineering Student.</p>
+        <p>This is a short webpage I have created from scratch.</p>
+        <p>I have used CSS and HTML to make this website.</p>
+    </header>
+
+    <section id="about" class="about text-center">
+        <h2>About Me</h2>
+        <p>I'm Jasmine Kale, and I specialize in Computer Engineering.</p>
+        <p>I have experience in C Programming and Python Coding.</p>
+        <p>I am intermediately skilled in Video Editing.</p>
+    </section>
+
+    <section id="education" class="education text-center">
+        <h2>Educational Background</h2>
+        <p>Secondary Highschool - Mount Litera Zee School</p>
+        <p>Currently Studying in Don Bosco College Of Engineering</p>
+    </section>
+
+    <section id="goals" class="goals text-center">
+        <h2>Professional Goals</h2>
+        <p>To become a software engineer specializing in developing innovative solutions and applications.</p>
+        <p>To continuously improve my skills in programming and stay updated with industry trends.</p>
+    </section>
+
+    <section id="projects" class="projects text-center">
+        <h2>Projects</h2>
+        <p>Here are some of my notable projects:</p>
+        <div class="project">
+            <h3>Calculator Using Python</h3>
+            <p>A simple calculator application developed in Python to perform basic arithmetic operations.</p>
+        </div>
+        <!-- Add more project details here -->
+    </section>
+
+    <section id="contact" class="contact text-center">
+        <h2>Contact Me</h2>
+        <p>You can reach me at:</p>
+        <p>Email: joycejk25@gmail.com</p>
+        <p>Phone: +91 9373859244</p>
+        <ul class="social-media">
+            <li><a href="https://www.linkedin.com/in/jasmine-kale-648b17267/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/jaek7"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Jasmine Kale. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
